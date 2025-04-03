@@ -1,8 +1,11 @@
 ---
 layout: page
-title: About
+title: aboutMe
 permalink: /about/
 ---
+
+Hello, I'm Olly, a physicist-turned-games programmer currently finishing a Level 7 Apprenticeship in Games Programming at Sumo Digital.
+
 
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
