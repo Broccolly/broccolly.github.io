@@ -18,21 +18,33 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+title: Olly Smith | Broccolly
+
+description: # this means to ignore newlines until "baseurl:"
+  Hello! I'm Olly, a physicist-turned-games-programmer.
+
+  I'm looking for programming roles in the games industry, particularly in systems/engine programming.
+
+  I have a Masters in Physics from the University of Oxford, and a PhD in Physics from the University of Warwick.
+
+  I'm currently working towards a Level 7 Apprenticeship in Games Programming at Sumo Digital, Sheffield.
+
+  When I'm not making games, I'm usually playing digital or tabletop games, watching Formula 1, or playing disc golf.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  broccolly
+repository: Broccolly/broccolly.github.io
+logo: /assets/img/logo.jpeg
+show_downloads: false
+
+#remote-theme: pages-themes/minimal@v0.2.0
 
 # Build settings
-theme: minima
+remote_theme: pages-themes/minimal@v0.2.0
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
+  - jekyll-include-cache
 
 # Exclude from processing.
 # The following items will not be processed, by default.
