@@ -11,7 +11,7 @@ Following 11 straight years studying maths and physics I finally decided to try 
 
 Our team recreated the look and feel of the Sumo Digital hit game Snake Pass (2017) to make a local multiplayer game for football audience members to play at half-time. We needed a robust physics system which could handle wiggling snake bodies, collisions between them and the environment and allow for snakes to grow and shrink dynamically as the game progressed.
 
-I dove into the world of real-time physics, finding the writings of [Erin Catto](https://box2d.org) especially helpful, and got to work implementing a physics engine. I wrote the physics system from scratch in C++ as a static library that could be independent from any particular project. I used a fully constraint-based approach to resolve collisions, friction and restitution, and implemented collision detection algorithms for spheres, AABBs, and OBBs.
+I dove into the world of real-time physics, finding the writings of [Erin Catto](https://box2d.org) especially helpful, and got to work implementing a physics engine. I wrote the physics system from scratch in C++ as a static library that could be independent from any particular project. I used a fully constraint-based approach to resolve collisions, friction and restitution, and implemented broad and narrow phase collision detection algorithms for spheres, AABBs, and OBBs.
 
 
 ## Ludum Dare 53 - Pack it In! (Unity / C#)
