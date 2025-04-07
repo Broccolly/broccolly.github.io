@@ -21,7 +21,7 @@ The game involves sorting different coloured parcels into their respective deliv
 
 The game was my most successful jam game at the time, landing us in the top 20% of submissions in the 'Overall' category, and the top 10% of submissions in the 'Innovation' category. More details can be found on the game's [itch](https://broccolly.itch.io/pack-it-in) page.
 <iframe frameborder="0" src="https://itch.io/embed-upload/7827308?color=333333" allowfullscreen="" width="720" height="540"><a href="https://broccolly.itch.io/pack-it-in">Play Pack It In! on itch.io</a></iframe>
-(Note that the full screen option causes issues with UI and map scaling. A Windows build can be found [here](https://broccolly.itch.io/pack-it-in) which doesn't have these issues!)
+(Note that the full screen option, and Windows OS Custom Scaling causes issues with UI and map scaling - try setting Windows scale to 100%. A Windows build can be found [here](https://broccolly.itch.io/pack-it-in) which doesn't have these issues!)
 
 
 ## Ludum Dare 55 - Lift Summoner Deluxe 1997 (Pico-8 / Lua)
